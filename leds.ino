@@ -31,6 +31,7 @@ void loop(){
 
 }
 
+//Function copy from strandtest from Adafruit Lib examples
 uint32_t Wheel(byte WheelPos) {
   WheelPos = 255 - WheelPos;
   if(WheelPos < 85) {
